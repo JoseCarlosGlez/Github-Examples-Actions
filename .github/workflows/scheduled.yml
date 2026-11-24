@@ -1,6 +1,8 @@
+name: hello
 on:
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "*/5 * * * *"
+  workflow_dispatch:   # lets you run it by hand to test
 
 jobs:
   hello-world:
